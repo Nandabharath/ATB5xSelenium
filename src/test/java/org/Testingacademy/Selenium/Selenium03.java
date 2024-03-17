@@ -1,5 +1,6 @@
 package org.Testingacademy.Selenium;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.annotations.Test;
 
@@ -12,8 +13,9 @@ public class Selenium03 {
         // YouTube video -. Ad blocker Extension
         // Selenium ?
         EdgeOptions edgeOptions=new EdgeOptions();
-        edgeOptions.addArguments("--headless");
-        edgeOptions.addExtensions(new File(""));
+       // edgeOptions.addArguments("--headless");
+        edgeOptions.addExtensions(new File("Downloads"));
+
 
     }
 }

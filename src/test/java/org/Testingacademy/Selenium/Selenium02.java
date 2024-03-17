@@ -64,7 +64,7 @@ public class Selenium02 {
         // 3. do you want to run on multiple browsers?
         // RemoteWebDriver driver (with GRID) - Advance (Last 2 Sessions)
 
-
+driver1.quit();
 
     }
 }

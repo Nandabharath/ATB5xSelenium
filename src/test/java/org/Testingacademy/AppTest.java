@@ -1,8 +1,7 @@
 package org.Testingacademy;
 
-import static org.junit.Assert.assertTrue;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 /**
  * Unit test for simple App.
@@ -16,5 +15,9 @@ public class AppTest
     public void shouldAnswerWithTrue()
     {
         assertTrue( true );
+    }
+
+    private void assertTrue(boolean b) {
+
     }
 }
